@@ -97,7 +97,13 @@
   </li>
 </ul>
 
+
 <b>Condição de vitória:</b>
 
 <input type="checkbox" id="vitoria-item" />
 <label for="vitoria-item">Ao final, vence quem acumulou mais pontos</label>
+
+## 🛠️ Como abrir e rodar o projeto
+
+1. Run `node --watch src/index.js`
+2. Run `node src/index.js`
