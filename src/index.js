@@ -81,7 +81,7 @@ async function playRaceEngine(character1, character2) {
       await logRollResult(character2.name, "manobrabilidade", diceResult2, character2.maneuverability);
 
 
-    // Confrontantion
+    // Confrontation
     } else if (block === "Confronto") {
       let powerResult1 = diceResult1 + character1.power;
       let powerResult2 = diceResult2 + character2.power;
